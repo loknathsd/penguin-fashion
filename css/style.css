@@ -1,0 +1,127 @@
+
+header{
+    background-color: #FFFBF0;
+    width:100%;
+    height: 650px;
+    overflow: hidden;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    color: #FABE4C;
+    
+}
+ h2{
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+}
+h3{
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+}
+ .image-height h5{
+    font-size: 24px;
+    color: #363958;
+    font-weight: bold;
+}
+p{
+    color: ##3E3E3E;
+    font-size:16px;
+}
+li a{
+    color:#3C3C3C;
+    font-size: 16px;
+    font-weight: 500;
+}
+button{
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    padding: 15px 30px;
+    border: none;
+}
+button small{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+button i{
+    font-size: 16px;
+    color: white;
+    margin-right: 5px;
+}
+.image-height img{
+    height: 250px;
+    width: 270px;
+    background-color:#F1F1F1;
+}
+.img-background{
+    height: 250px;
+    width: 310px;
+}
+
+.button-footer .dollar{
+    font-size: 32px;
+    color: #FABE4C;
+    font-weight: bold;
+    margin-left: 0;
+    margin-right: 19px;
+}
+.card-image img{
+    width: 90px;
+    margin-left: 20px;
+    margin-top:5px ;
+}
+.card-image h5{
+    font-size: 24px;
+    color: #363958;
+    font-weight: bold;
+}
+.contact-form{
+    width: 60%;
+    margin: auto;
+}
+.contact-section{
+    margin-top: 50px;
+    background-color: #F1F1F1;
+}
+
+ 
+  
+
+
+@media(max-width:768px){
+    nav{
+       background-color:#FFFBF0 ;
+
+    }
+    header{
+        margin-top: 10%;
+        height: 100%;
+    }
+
+    nav img{
+        width: 200px;
+        height: 100px;
+    }
+    .product h3{
+        text-align: center;
+    }
+    .img-background img{
+        height: 400px;
+        width: 400px;
+    }
+    .img-background {
+           width: 400px;
+           height: 400px;
+           margin: auto;
+    }
+    .man-product h3{
+        text-align: center;
+    }
+    .card-image {
+        text-align: center;
+        
+    }
+
+}
+    
+    
+    
